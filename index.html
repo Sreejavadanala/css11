@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: yellow;
+        }
+
+        .container {
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sidebar button {
+            margin-bottom: 10px;
+            padding: 10px;
+            background: linear-gradient(to right, #ccc 80%, #000 20%);
+            border: none;
+            color: blue;
+            cursor: pointer;
+            text-align: left;
+        }
+
+        .content {
+            margin-left: 50px;
+            color: violet;
+        }
+
+        .content h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .content p {
+            font-size: 16px;
+        }
+
+        hr {
+            margin: 20px 0;
+            border: none;
+            border-top: 2px solid violet;
+        }
+
+        .footer {
+            color: violet;
+            text-align: right;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <button>Home Page</button>
+            <button>Musings</button>
+            <button>My Town</button>
+            <button>Links</button>
+        </div>
+        <div class="content">
+            <h1>MY FIRST STYLED PAGE</h1>
+            <p>Welcome to my styled page</p>
+    
+            <p>It lacks Images but atleast it has styles and links even though it wont guide you anywhere!</p>
+       
+            <p>There should be more here but i don't know what yet!</p>
+            <hr>
+            <p>Made on 1 March 2002</p>
+            <p>By Myself</p>
+        </div>
+    </div>
+</body>
+</html>
